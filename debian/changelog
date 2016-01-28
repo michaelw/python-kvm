@@ -1,0 +1,5 @@
+python-kvm (1.0.5+20170809-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Michael Weber <mweber@instartlogic.com>  Wed, 09 Aug 2017 07:56:20 -0700

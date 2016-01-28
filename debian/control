@@ -1,0 +1,22 @@
+Source: python-kvm
+Section: python
+Priority: extra
+Maintainer: Michael Weber <mweber@instartlogic.com>
+Build-Depends: debhelper (>= 9),
+               python-all,
+               python-setuptools,
+               python-requests,
+               python-sphinx,
+               python-unix
+Standards-Version: 3.9.2
+Homepage: https://github.com/fmenabe/python-kvm
+
+Package: python-kvm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}, libvirt-bin
+Recommends: ${python:Recommends}
+Description: API for managing KVM host
+ This module aims to manage KVM hypervisors. This module is just a
+ wrapper to the ``virsh`` command. It parse outputs of the ``virsh``
+ command (both XML and text). Commands are grouped in childs objects
+ accessible via properties.
