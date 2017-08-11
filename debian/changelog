@@ -1,3 +1,9 @@
+python-kvm (1.0.5+20170809-2) unstable; urgency=low
+
+  * add python-unix, python-lxml dependencies
+
+ -- Michael Weber <mweber@instartlogic.com>  Fri, 11 Aug 2017 15:25:49 -0700
+
 python-kvm (1.0.5+20170809-1) unstable; urgency=low
 
   * Initial release
